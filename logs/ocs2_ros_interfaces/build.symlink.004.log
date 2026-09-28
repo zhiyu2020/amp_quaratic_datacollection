@@ -1,0 +1,7 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/lib/libocs2_ros_interfaces.so, /root/amp/legged_mpc_amp-master/devel/lib/libocs2_ros_interfaces.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/lib/pkgconfig/ocs2_ros_interfaces.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_ros_interfaces.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/lib/ocs2_ros_interfaces/test_custom_callback_queue, /root/amp/legged_mpc_amp-master/devel/lib/ocs2_ros_interfaces/test_custom_callback_queue)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/lib/ocs2_ros_interfaces/ocs2_ros_interfaces_lintTarget, /root/amp/legged_mpc_amp-master/devel/lib/ocs2_ros_interfaces/ocs2_ros_interfaces_lintTarget)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/lib/ocs2_ros_interfaces/multiplot_remap, /root/amp/legged_mpc_amp-master/devel/lib/ocs2_ros_interfaces/multiplot_remap)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/ocs2_ros_interfacesConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_ros_interfaces/cmake/ocs2_ros_interfacesConfig-version.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/ocs2_ros_interfacesConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_ros_interfaces/cmake/ocs2_ros_interfacesConfig.cmake)

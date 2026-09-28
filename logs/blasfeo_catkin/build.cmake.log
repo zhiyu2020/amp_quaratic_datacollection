@@ -1,0 +1,69 @@
+Not searching for unused variables given on the command line.
+-- Using CATKIN_DEVEL_PREFIX: /root/amp/legged_mpc_amp-master/devel/.private/blasfeo_catkin
+-- Using CMAKE_PREFIX_PATH: /root/amp/legged_mpc_amp-master/devel;/opt/ros/noetic
+-- This workspace overlays: /root/amp/legged_mpc_amp-master/devel;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /root/amp/legged_mpc_amp-master/build/blasfeo_catkin/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.12
+-- BUILD_SHARED_LIBS is on
+-- Using linear algebra: HIGH_PERFORMANCE
+-- Using matrix format: PANELMAJ
+-- Using external BLAS: 0
+-- Testing target X64_INTEL_HASWELL: assembly compilation [success]
+-- Testing target X64_INTEL_HASWELL: assembly run [success]
+-- Testing target X64_INTEL_HASWELL: intrinsic compilation [success]
+-- Testing target X64_INTEL_HASWELL: intrinsic run [success]
+-- Detected target X64_INTEL_HASWELL
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_block_size.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_common.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_aux.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_aux_ext_dep.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_aux_ext_dep_ref.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_aux_old.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_aux_ref.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_aux_test.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_blas.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_blas_api.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_blasfeo_api.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_blasfeo_api_ref.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_blasfeo_ref_api.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_d_kernel.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_i_aux_ext_dep.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_m_aux.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_memory.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_naming.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_processor_features.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_aux.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_aux_ext_dep.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_aux_ext_dep_ref.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_aux_old.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_aux_ref.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_aux_test.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_blas.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_blas_api.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_blasfeo_api.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_blasfeo_api_ref.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_blasfeo_ref_api.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_s_kernel.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_stdlib.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_target.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_timing.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/blasfeo_v_aux_ext_dep.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/d_blas.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/d_blas_64.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/s_blas.h
+-- FOUND HEADER: /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_sqp/blasfeo_catkin/../../../blasfeo/include/s_blas_64.h
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/amp/legged_mpc_amp-master/build/blasfeo_catkin

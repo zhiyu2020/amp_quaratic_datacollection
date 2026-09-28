@@ -1,0 +1,8 @@
+Scanning dependencies of target _catkin_empty_exported_target
+[  0%] Built target _catkin_empty_exported_target
+Scanning dependencies of target ocs2_sqp
+[ 25%] Building CXX object CMakeFiles/ocs2_sqp.dir/src/SqpLogging.cpp.o
+[ 75%] Building CXX object CMakeFiles/ocs2_sqp.dir/src/SqpSolver.cpp.o
+[ 75%] Building CXX object CMakeFiles/ocs2_sqp.dir/src/SqpSettings.cpp.o
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_sqp/lib/libocs2_sqp.so
+[100%] Built target ocs2_sqp

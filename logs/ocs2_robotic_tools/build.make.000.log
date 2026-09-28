@@ -1,0 +1,9 @@
+Scanning dependencies of target ocs2_robotic_tools_lintTarget
+Scanning dependencies of target ocs2_robotic_tools
+[ 20%] Building CXX object CMakeFiles/ocs2_robotic_tools_lintTarget.dir/src/lintTarget.cpp.o
+[ 40%] Building CXX object CMakeFiles/ocs2_robotic_tools.dir/src/common/LoopshapingRobotInterface.cpp.o
+[ 60%] Building CXX object CMakeFiles/ocs2_robotic_tools.dir/src/common/RotationTransforms.cpp.o
+[ 80%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_robotic_tools/lib/ocs2_robotic_tools/ocs2_robotic_tools_lintTarget
+[ 80%] Built target ocs2_robotic_tools_lintTarget
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_robotic_tools/lib/libocs2_robotic_tools.so
+[100%] Built target ocs2_robotic_tools

@@ -1,0 +1,43 @@
+<launch>
+    <arg name="robot_type" default="$(env ROBOT_TYPE)" doc="Robot type: [a1, aliengo, go1, go2, Lite3]"/>
+    <!-- Keep physics paused until the MPC controller is ready. Both the
+         keyboard and automatic initialization paths unpause Gazebo just
+         before switching the controller on. -->
+    <arg name="paused" default="true"/>
+    <arg name="spawn_z" default="0.32"/>
+    <arg name="use_sim_time" default="true"/>
+    <arg name="gui" default="true"/>
+    <arg name="headless" default="false"/>
+    <arg name="debug" default="false"/>
+
+    <param name="legged_robot_description" command="$(find xacro)/xacro $(find legged_robot_description)/urdf/robot.xacro
+       robot_type:=$(arg robot_type)
+    "/>
+    <!-- Gazebo's joint_state_controller publishes /joint_states but does not
+         publish link transforms.  The AMP JSON recorder needs base-to-foot
+         transforms, so provide the standard robot_state_publisher here. -->
+    <param name="robot_description" command="$(find xacro)/xacro $(find legged_robot_description)/urdf/robot.xacro
+       robot_type:=$(arg robot_type)
+    "/>
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+          output="screen"/>
+    <node name="generate_urdf" pkg="legged_common" type="generate_urdf.sh" output="screen"
+          args="$(find legged_robot_description)/urdf/robot.xacro $(arg robot_type)"/>
+
+    <rosparam file="$(find legged_gazebo)/config/default.yaml" command="load"/>
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find legged_gazebo)/worlds/empty_world.world"/>
+        <arg name="paused" value="$(arg paused)"/>
+        <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+        <arg name="gui" value="$(arg gui)"/>
+        <arg name="headless" value="$(arg headless)"/>
+        <arg name="debug" value="$(arg debug)"/>
+    </include>
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" clear_params="true"
+          args="-z $(arg spawn_z) -param legged_robot_description -urdf -model $(arg robot_type)
+                -J LF_HAA -0.10 -J LF_HFE 0.72 -J LF_KFE -1.44
+                -J LH_HAA -0.10 -J LH_HFE 0.72 -J LH_KFE -1.44
+                -J RF_HAA 0.10 -J RF_HFE 0.72 -J RF_KFE -1.44
+                -J RH_HAA 0.10 -J RH_HFE 0.72 -J RH_KFE -1.44" output="screen"/>
+
+</launch>

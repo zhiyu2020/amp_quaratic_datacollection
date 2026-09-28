@@ -1,0 +1,5 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_slp/lib/libocs2_slp.so, /root/amp/legged_mpc_amp-master/devel/lib/libocs2_slp.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_slp/lib/pkgconfig/ocs2_slp.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_slp.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_slp/lib/ocs2_slp/ocs2_slp_lintTarget, /root/amp/legged_mpc_amp-master/devel/lib/ocs2_slp/ocs2_slp_lintTarget)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_slp/share/ocs2_slp/cmake/ocs2_slpConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_slp/cmake/ocs2_slpConfig-version.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_slp/share/ocs2_slp/cmake/ocs2_slpConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_slp/cmake/ocs2_slpConfig.cmake)

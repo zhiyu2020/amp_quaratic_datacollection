@@ -1,0 +1,23 @@
+Scanning dependencies of target _catkin_empty_exported_target
+[  0%] Built target _catkin_empty_exported_target
+Scanning dependencies of target ocs2_legged_robot
+[  5%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/common/ModelSettings.cpp.o
+[ 10%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/ZeroVelocityConstraintCppAd.cpp.o
+[ 15%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/reference_manager/SwitchedModelReferenceManager.cpp.o
+[ 21%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/foot_planner/CubicSpline.cpp.o
+[ 26%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/dynamics/LeggedRobotDynamicsAD.cpp.o
+[ 31%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/foot_planner/SwingTrajectoryPlanner.cpp.o
+[ 36%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/EndEffectorLinearConstraint.cpp.o
+[ 42%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/GaitSchedule.cpp.o
+[ 47%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/initialization/LeggedRobotInitializer.cpp.o
+[ 57%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/ModeSequenceTemplate.cpp.o
+[ 63%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/LegLogic.cpp.o
+[ 63%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/FrictionConeConstraint.cpp.o
+[ 68%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/ZeroForceConstraint.cpp.o
+[ 73%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/NormalVelocityConstraintCppAd.cpp.o
+[ 78%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/foot_planner/SplineCpg.cpp.o
+[ 84%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/Gait.cpp.o
+[ 89%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/LeggedRobotInterface.cpp.o
+[ 94%] Building CXX object CMakeFiles/ocs2_legged_robot.dir/src/LeggedRobotPreComputation.cpp.o
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_legged_robot/lib/libocs2_legged_robot.so
+[100%] Built target ocs2_legged_robot

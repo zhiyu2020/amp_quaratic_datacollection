@@ -1,0 +1,44 @@
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp: In function ‘std::ostream& ocs2::operator<<(std::ostream&, const PinocchioInterface&)’:
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp:78:44: warning: ‘pinocchio::FrameTpl<double, 0>::parent’ is deprecated [-Wdeprecated-declarations]
+   78 |     os << ", parent = " << model.frames[k].parent;
+      |                                            ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/model.hpp:16,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/algorithm/contact-cholesky.hpp:8,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/data.hpp:19,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/implementation/PinocchioInterface.h:33,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp:32:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/frame.hpp:231:39: note: declared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & parent;
+      |                                       ^~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp:78:44: warning: ‘pinocchio::FrameTpl<double, 0>::parent’ is deprecated [-Wdeprecated-declarations]
+   78 |     os << ", parent = " << model.frames[k].parent;
+      |                                            ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/model.hpp:16,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/algorithm/contact-cholesky.hpp:8,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/data.hpp:19,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/implementation/PinocchioInterface.h:33,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp:32:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/frame.hpp:231:39: note: declared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & parent;
+      |                                       ^~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp:78:44: warning: ‘pinocchio::FrameTpl<double, 0>::parent’ is deprecated [-Wdeprecated-declarations]
+   78 |     os << ", parent = " << model.frames[k].parent;
+      |                                            ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/model.hpp:16,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/algorithm/contact-cholesky.hpp:8,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/data.hpp:19,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/implementation/PinocchioInterface.h:33,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp:32:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/frame.hpp:231:39: note: declared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & parent;
+      |                                       ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/autodiff/cppad.hpp:228,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/codegen/cppadcg.hpp:16,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/implementation/PinocchioInterface.h:30,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp:32:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/autodiff/cppad/utils/static-if.hpp: In static member function ‘static pinocchio::internal::if_then_else_impl<CppAD::AD<Base>, CppAD::AD<Base>, ThenType, ElseType>::ReturnType pinocchio::internal::if_then_else_impl<CppAD::AD<Base>, CppAD::AD<Base>, ThenType, ElseType>::run(pinocchio::internal::ComparisonOperators, const CppAD::AD<Base>&, const CppAD::AD<Base>&, const ThenType&, const ElseType&) [with Scalar = CppAD::cg::CG<double>; ThenType = CppAD::AD<CppAD::cg::CG<double> >; ElseType = CppAD::AD<CppAD::cg::CG<double> >]’:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/autodiff/cppad/utils/static-if.hpp:39:7: warning: control reaches end of non-void function [-Wreturn-type]
+   39 |       }
+      |       ^
+At global scope:
+cc1plus: warning: unrecognized command line option ‘-Wno-invalid-partial-specialization’

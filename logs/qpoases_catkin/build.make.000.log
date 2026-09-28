@@ -1,0 +1,277 @@
+Scanning dependencies of target qpOASES
+[  5%] Building CXX object build/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o
+[ 10%] Building CXX object build/CMakeFiles/qpOASES.dir/src/Bounds.cpp.o
+[ 15%] Building CXX object build/CMakeFiles/qpOASES.dir/src/Constraints.cpp.o
+[ 21%] Building CXX object build/CMakeFiles/qpOASES.dir/src/Flipper.cpp.o
+[ 26%] Building CXX object build/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o
+[ 31%] Building CXX object build/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o
+[ 36%] Building CXX object build/CMakeFiles/qpOASES.dir/src/Matrices.cpp.o
+[ 42%] Building CXX object build/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o
+[ 47%] Building CXX object build/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o
+[ 52%] Building CXX object build/CMakeFiles/qpOASES.dir/src/Options.cpp.o
+[ 57%] Building CXX object build/CMakeFiles/qpOASES.dir/src/QProblem.cpp.o
+[ 63%] Building CXX object build/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o
+[ 68%] Building CXX object build/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o
+[ 73%] Building CXX object build/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Matrices.cpp: In member function ‘virtual qpOASES::returnValue qpOASES::SparseMatrix::getRowNorm(qpOASES::real_t*, qpOASES::int_t) const’:
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Matrices.cpp:855:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  855 |     for (i = jc[j]; i < jc[j+1]; i++);
+      |     ^~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Matrices.cpp:856:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  856 |       norm[ir[i]] += getAbs( val[i] );
+      |       ^~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/MessageHandling.cpp: In member function ‘qpOASES::returnValue qpOASES::MessageHandling::throwMessage(qpOASES::returnValue, const char*, const char*, const char*, long unsigned int, qpOASES::VisibilityStatus, const char*)’:
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/MessageHandling.cpp:517:50: warning: ‘->’ directive output may be truncated writing 2 bytes into a region of size between 1 and 160 [-Wformat-truncation=]
+  517 |    snprintf( myPrintfString,MAX_STRING_LENGTH,"%s->", whitespaces );
+      |                                                  ^~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/MessageHandling.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 3 and 162 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 78%] Building CXX object build/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o
+[ 84%] Building CXX object build/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp: In member function ‘qpOASES::returnValue qpOASES::Options::print() const’:
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:386:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  386 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"printLevel                     =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:392:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  392 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableRamping                  =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:396:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  396 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableFarBounds                =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:400:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  400 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableFlippingBounds           =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:404:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  404 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableRegularisation           =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:408:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  408 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableFullLITests              =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:412:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  412 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableNZCTests                 =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:422:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  422 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableEqualities               =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:426:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  426 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableInertiaCorrection        =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:470:80: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size 126 [-Wformat-truncation=]
+  470 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"initialStatusBounds            =  %s\n",info );
+      |                                                                                ^~    ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Options.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/Options.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 89%] Building CXX object build/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o
+[ 94%] Building CXX object build/CMakeFiles/qpOASES.dir/src/Utils.cpp.o
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblemB.cpp: In member function ‘qpOASES::returnValue qpOASES::QProblemB::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::real_t, qpOASES::BooleanType)’:
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblemB.cpp:3837:76: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size between 119 and 135 [-Wformat-truncation=]
+ 3837 |     snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |   %s %4.1d   |  %4.1d   \n", (int)iter,tau,info,(int)BC_idx,(int)getNFX( ) );
+      |                                                                            ^~                                       ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Indexlist.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/SubjectTo.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Bounds.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Flipper.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/QProblemB.hpp:42,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblemB.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 45 and 234 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblemB.cpp:3827:78: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [-Wformat-truncation=]
+ 3827 |      snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d*  |   %1.6e   |    %s SOLVED     |  %4.1d   \n", (int)iter,tau,info,(int)getNFX( ) );
+      |                                                                              ^~                                          ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Indexlist.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/SubjectTo.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Bounds.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Flipper.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/QProblemB.hpp:42,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblemB.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 50 and 232 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblemB.cpp:3825:78: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [-Wformat-truncation=]
+ 3825 |      snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |    %s SOLVED     |  %4.1d   \n", (int)iter,tau,info,(int)getNFX( ) );
+      |                                                                              ^~                                          ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Indexlist.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/SubjectTo.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Bounds.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Flipper.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/QProblemB.hpp:42,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblemB.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 50 and 232 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblem.cpp: In member function ‘qpOASES::returnValue qpOASES::QProblem::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::BooleanType, qpOASES::real_t, qpOASES::BooleanType)’:
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblem.cpp:6244:76: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size between 119 and 135 [-Wformat-truncation=]
+ 6244 |     snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |   %s %4.1d   |  %4.1d   |  %4.1d   \n", (int)iter,tau,info,(int)BC_idx,(int)getNFX( ),(int)getNAC( ) );
+      |                                                                            ^~                                                  ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Indexlist.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/SubjectTo.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Bounds.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Flipper.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/QProblemB.hpp:42,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/QProblem.hpp:41,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblem.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 55 and 251 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblem.cpp:6229:78: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [-Wformat-truncation=]
+ 6229 |      snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d*  |   %1.6e   |    %s SOLVED     |  %4.1d   |  %4.1d   \n", (int)iter,tau,info,(int)getNFX( ),(int)getNAC( ) );
+      |                                                                              ^~                                                     ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Indexlist.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/SubjectTo.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Bounds.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Flipper.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/QProblemB.hpp:42,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/QProblem.hpp:41,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblem.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 60 and 249 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblem.cpp:6227:78: warning: ‘%s’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [-Wformat-truncation=]
+ 6227 |      snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |    %s SOLVED     |  %4.1d   |  %4.1d   \n", (int)iter,tau,info,(int)getNFX( ),(int)getNAC( ) );
+      |                                                                              ^~                                                     ~~~~
+In file included from /usr/include/stdio.h:867,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/MessageHandling.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Utils.hpp:39,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Indexlist.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/SubjectTo.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Bounds.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/Flipper.hpp:40,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/QProblemB.hpp:42,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/include/qpOASES/QProblem.hpp:41,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/qpOASES/src/QProblem.cpp:36:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35: note: ‘__builtin___snprintf_chk’ output between 60 and 249 bytes into a destination of size 160
+   67 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |        __bos (__s), __fmt, __va_arg_pack ());
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/qpoases_catkin/lib/libqpOASES.so
+[100%] Built target qpOASES

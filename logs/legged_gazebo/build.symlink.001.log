@@ -1,0 +1,4 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_gazebo/lib/liblegged_hw_sim.so, /root/amp/legged_mpc_amp-master/devel/lib/liblegged_hw_sim.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_gazebo/lib/pkgconfig/legged_gazebo.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/legged_gazebo.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_gazebo/share/legged_gazebo/cmake/legged_gazeboConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/legged_gazebo/cmake/legged_gazeboConfig-version.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_gazebo/share/legged_gazebo/cmake/legged_gazeboConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/legged_gazebo/cmake/legged_gazeboConfig.cmake)

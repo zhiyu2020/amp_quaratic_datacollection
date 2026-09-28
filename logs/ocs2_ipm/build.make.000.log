@@ -1,0 +1,10 @@
+Scanning dependencies of target _catkin_empty_exported_target
+[  0%] Built target _catkin_empty_exported_target
+Scanning dependencies of target ocs2_ipm
+[ 33%] Building CXX object CMakeFiles/ocs2_ipm.dir/src/IpmSettings.cpp.o
+[ 33%] Building CXX object CMakeFiles/ocs2_ipm.dir/src/IpmPerformanceIndexComputation.cpp.o
+[ 50%] Building CXX object CMakeFiles/ocs2_ipm.dir/src/IpmSolver.cpp.o
+[ 83%] Building CXX object CMakeFiles/ocs2_ipm.dir/src/IpmHelpers.cpp.o
+[ 83%] Building CXX object CMakeFiles/ocs2_ipm.dir/src/IpmInitialization.cpp.o
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_ipm/lib/libocs2_ipm.so
+[100%] Built target ocs2_ipm

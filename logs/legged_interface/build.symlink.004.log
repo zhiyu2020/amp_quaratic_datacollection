@@ -1,0 +1,4 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_interface/lib/liblegged_interface.so, /root/amp/legged_mpc_amp-master/devel/lib/liblegged_interface.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_interface/lib/pkgconfig/legged_interface.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/legged_interface.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_interface/share/legged_interface/cmake/legged_interfaceConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/legged_interface/cmake/legged_interfaceConfig.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_interface/share/legged_interface/cmake/legged_interfaceConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/legged_interface/cmake/legged_interfaceConfig-version.cmake)

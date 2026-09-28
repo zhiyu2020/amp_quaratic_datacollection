@@ -1,0 +1,16 @@
+Scanning dependencies of target legged_interface
+[  7%] Building CXX object CMakeFiles/legged_interface.dir/src/constraint/EndEffectorLinearConstraint.cpp.o
+[ 14%] Building CXX object CMakeFiles/legged_interface.dir/src/constraint/ZeroVelocityConstraintCppAd.cpp.o
+[ 35%] Building CXX object CMakeFiles/legged_interface.dir/src/constraint/FrictionConeConstraint.cpp.o
+[ 35%] Building CXX object CMakeFiles/legged_interface.dir/src/constraint/SwingTrajectoryPlanner.cpp.o
+[ 35%] Building CXX object CMakeFiles/legged_interface.dir/src/constraint/ZeroForceConstraint.cpp.o
+[ 42%] Building CXX object CMakeFiles/legged_interface.dir/src/SwitchedModelReferenceManager.cpp.o
+[ 50%] Building CXX object CMakeFiles/legged_interface.dir/src/constraint/NormalVelocityConstraintCppAd.cpp.o
+[ 64%] Building CXX object CMakeFiles/legged_interface.dir/src/constraint/BezierCpg.cpp.o
+[ 64%] Building CXX object CMakeFiles/legged_interface.dir/src/cost/FootTrajectoryTrackingCost.cpp.o
+[ 71%] Building CXX object CMakeFiles/legged_interface.dir/src/initialization/LeggedRobotInitializer.cpp.o
+[ 78%] Building CXX object CMakeFiles/legged_interface.dir/src/foot_planner/BezierFootTrajectory.cpp.o
+[ 85%] Building CXX object CMakeFiles/legged_interface.dir/src/LeggedRobotPreComputation.cpp.o
+[ 92%] Building CXX object CMakeFiles/legged_interface.dir/src/LeggedInterface.cpp.o
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/legged_interface/lib/liblegged_interface.so
+[100%] Built target legged_interface

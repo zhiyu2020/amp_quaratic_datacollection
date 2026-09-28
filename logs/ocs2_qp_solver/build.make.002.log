@@ -1,0 +1,2 @@
+[ 20%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_qp_solver/lib/libocs2_qp_solver.so
+[100%] Built target ocs2_qp_solver

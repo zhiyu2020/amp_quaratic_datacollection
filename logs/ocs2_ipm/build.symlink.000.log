@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_ipm.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_ipm.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_ipm/cmake/ocs2_ipmConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_ipm/cmake/ocs2_ipmConfig.cmake

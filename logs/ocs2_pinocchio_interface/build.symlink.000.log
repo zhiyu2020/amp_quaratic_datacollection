@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_pinocchio_interface.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_pinocchio_interface.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig-version.cmake

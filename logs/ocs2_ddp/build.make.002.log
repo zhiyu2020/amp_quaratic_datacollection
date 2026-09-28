@@ -1,0 +1,3 @@
+[ 12%] Built target ocs2_ddp_lintTarget
+[ 18%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_ddp/lib/libocs2_ddp.so
+[100%] Built target ocs2_ddp

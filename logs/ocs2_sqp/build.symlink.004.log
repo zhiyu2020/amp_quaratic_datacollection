@@ -1,0 +1,4 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_sqp/lib/libocs2_sqp.so, /root/amp/legged_mpc_amp-master/devel/lib/libocs2_sqp.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_sqp/lib/pkgconfig/ocs2_sqp.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_sqp.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_sqp/cmake/ocs2_sqpConfig.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_sqp/cmake/ocs2_sqpConfig-version.cmake)

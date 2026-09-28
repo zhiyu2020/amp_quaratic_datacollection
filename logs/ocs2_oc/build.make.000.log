@@ -1,0 +1,39 @@
+Scanning dependencies of target ocs2_oc_lintTarget
+Scanning dependencies of target ocs2_oc
+[  2%] Building CXX object CMakeFiles/ocs2_oc_lintTarget.dir/src/lintTarget.cpp.o
+[  8%] Building CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/PerformanceIndexComputation.cpp.o
+[  8%] Building CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/LagrangianEvaluation.cpp.o
+[ 11%] Building CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/Transcription.cpp.o
+[ 14%] Building CXX object CMakeFiles/ocs2_oc.dir/src/approximate_model/ChangeOfInputVariables.cpp.o
+[ 17%] Building CXX object CMakeFiles/ocs2_oc.dir/src/approximate_model/LinearQuadraticApproximator.cpp.o
+[ 25%] Building CXX object CMakeFiles/ocs2_oc.dir/src/oc_data/LoopshapingPrimalSolution.cpp.o
+[ 25%] Building CXX object CMakeFiles/ocs2_oc.dir/src/oc_data/TimeDiscretization.cpp.o
+[ 28%] Building CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/Initialization.cpp.o
+[ 28%] Building CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/Helpers.cpp.o
+[ 31%] Building CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OptimalControlProblem.cpp.o
+[ 34%] Building CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/LoopshapingOptimalControlProblem.cpp.o
+[ 37%] Building CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/ProjectionMultiplierCoefficients.cpp.o
+[ 40%] Building CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OcpSize.cpp.o
+[ 42%] Building CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/MetricsComputation.cpp.o
+[ 45%] Building CXX object CMakeFiles/ocs2_oc.dir/src/oc_data/PerformanceIndex.cpp.o
+[ 48%] Building CXX object CMakeFiles/ocs2_oc.dir/src/oc_solver/SolverBase.cpp.o
+[ 51%] Building CXX object CMakeFiles/ocs2_oc.dir/src/precondition/Ruzi.cpp.o
+[ 54%] Building CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OcpToKkt.cpp.o
+[ 57%] Building CXX object CMakeFiles/ocs2_oc.dir/src/rollout/InitializerRollout.cpp.o
+[ 60%] Building CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OptimalControlProblemHelperFunction.cpp.o
+[ 62%] Building CXX object CMakeFiles/ocs2_oc.dir/src/rollout/RootFinder.cpp.o
+[ 65%] Building CXX object CMakeFiles/ocs2_oc.dir/src/rollout/RolloutBase.cpp.o
+[ 68%] Building CXX object CMakeFiles/ocs2_oc.dir/src/rollout/TimeTriggeredRollout.cpp.o
+[ 71%] Building CXX object CMakeFiles/ocs2_oc.dir/src/rollout/StateTriggeredRollout.cpp.o
+[ 74%] Building CXX object CMakeFiles/ocs2_oc.dir/src/rollout/PerformanceIndicesRollout.cpp.o
+[ 77%] Building CXX object CMakeFiles/ocs2_oc.dir/src/rollout/RolloutSettings.cpp.o
+[ 80%] Building CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/ReferenceManager.cpp.o
+[ 82%] Building CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/LoopshapingReferenceManager.cpp.o
+[ 85%] Building CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/LoopshapingSynchronizedModule.cpp.o
+[ 88%] Building CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/SolverObserver.cpp.o
+[ 91%] Building CXX object CMakeFiles/ocs2_oc.dir/src/search_strategy/FilterLinesearch.cpp.o
+[ 94%] Building CXX object CMakeFiles/ocs2_oc.dir/src/trajectory_adjustment/TrajectorySpreading.cpp.o
+[ 97%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_oc/lib/ocs2_oc/ocs2_oc_lintTarget
+[ 97%] Built target ocs2_oc_lintTarget
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_oc/lib/libocs2_oc.so
+[100%] Built target ocs2_oc

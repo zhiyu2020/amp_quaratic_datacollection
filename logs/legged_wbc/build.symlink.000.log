@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/liblegged_wbc.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/legged_wbc.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_wbc/cmake/legged_wbcConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_wbc/cmake/legged_wbcConfig.cmake

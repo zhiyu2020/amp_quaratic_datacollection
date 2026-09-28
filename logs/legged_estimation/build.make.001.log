@@ -1,0 +1,2 @@
+[ 25%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/legged_estimation/lib/liblegged_estimation.so
+[100%] Built target legged_estimation

@@ -1,0 +1,3 @@
+[ 60%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_robotic_tools/lib/libocs2_robotic_tools.so
+[ 60%] Built target ocs2_robotic_tools_lintTarget
+[100%] Built target ocs2_robotic_tools

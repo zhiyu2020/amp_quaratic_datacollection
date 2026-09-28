@@ -1,0 +1,10 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_legged_robot_ros.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_legged_robot_ros.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_legged_robot_ros/legged_robot_target
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_legged_robot_ros/legged_robot_sqp_mpc
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_legged_robot_ros/legged_robot_ipm_mpc
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_legged_robot_ros/legged_robot_gait_command
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_legged_robot_ros/legged_robot_ddp_mpc
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_legged_robot_ros/legged_robot_dummy
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_legged_robot_ros/cmake/ocs2_legged_robot_rosConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_legged_robot_ros/cmake/ocs2_legged_robot_rosConfig.cmake

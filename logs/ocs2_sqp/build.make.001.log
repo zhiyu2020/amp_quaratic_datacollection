@@ -1,0 +1,3 @@
+[  0%] Built target _catkin_empty_exported_target
+[ 25%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_sqp/lib/libocs2_sqp.so
+[100%] Built target ocs2_sqp

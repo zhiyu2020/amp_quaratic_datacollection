@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_centroidal_model.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_centroidal_model.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig.cmake

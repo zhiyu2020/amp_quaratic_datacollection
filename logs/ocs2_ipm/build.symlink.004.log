@@ -1,0 +1,4 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ipm/lib/libocs2_ipm.so, /root/amp/legged_mpc_amp-master/devel/lib/libocs2_ipm.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ipm/lib/pkgconfig/ocs2_ipm.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_ipm.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ipm/share/ocs2_ipm/cmake/ocs2_ipmConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_ipm/cmake/ocs2_ipmConfig-version.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ipm/share/ocs2_ipm/cmake/ocs2_ipmConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_ipm/cmake/ocs2_ipmConfig.cmake)

@@ -1,0 +1,5 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_ddp.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_ddp.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_ddp/ocs2_ddp_lintTarget
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_ddp/cmake/ocs2_ddpConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_ddp/cmake/ocs2_ddpConfig.cmake

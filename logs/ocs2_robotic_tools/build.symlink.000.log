@@ -1,0 +1,5 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_robotic_tools.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_robotic_tools.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_robotic_tools/ocs2_robotic_tools_lintTarget
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_robotic_tools/cmake/ocs2_robotic_toolsConfig.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_robotic_tools/cmake/ocs2_robotic_toolsConfig-version.cmake

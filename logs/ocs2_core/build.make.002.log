@@ -1,0 +1,5 @@
+[  1%] Building CXX object CMakeFiles/ocs2_core_lintTarget.dir/src/lintTarget.cpp.o
+[  3%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_core/lib/libocs2_core.so
+[100%] Built target ocs2_core
+[100%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_core/lib/ocs2_core/ocs2_core_lintTarget
+[100%] Built target ocs2_core_lintTarget

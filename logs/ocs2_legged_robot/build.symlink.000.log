@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_legged_robot.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_legged_robot.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig-version.cmake

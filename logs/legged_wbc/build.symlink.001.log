@@ -1,0 +1,4 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_wbc/lib/liblegged_wbc.so, /root/amp/legged_mpc_amp-master/devel/lib/liblegged_wbc.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_wbc/lib/pkgconfig/legged_wbc.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/legged_wbc.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_wbc/share/legged_wbc/cmake/legged_wbcConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/legged_wbc/cmake/legged_wbcConfig-version.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_wbc/share/legged_wbc/cmake/legged_wbcConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/legged_wbc/cmake/legged_wbcConfig.cmake)

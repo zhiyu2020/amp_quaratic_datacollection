@@ -1,0 +1,4 @@
+[  0%] Built target _catkin_empty_exported_target
+[ 96%] Built target hpipm
+[ 97%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/hpipm_catkin/lib/libhpipm_catkin.so
+[100%] Built target hpipm_catkin

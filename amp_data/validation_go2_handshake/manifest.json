@@ -1,0 +1,78 @@
+{
+  "amp_log_dir": "/root/amp/legged_mpc_amp-master/amp_data/validation_go2_handshake",
+  "amp_log_prefix": "validation",
+  "files_are_sequences": true,
+  "gait": "trot",
+  "gait_file": "/root/amp/legged_mpc_amp-master/src/legged_controllers/config/go2/gait.info",
+  "log_frequency_hz": 50.0,
+  "robot_name": "legged_robot",
+  "segments": [
+    {
+      "expected_file": "validation_0000.csv",
+      "gait": "stance",
+      "name": "stance",
+      "record_duration": 2.0,
+      "segment_index": 0,
+      "sequence_index": 0,
+      "sequence_name": "custom_segments",
+      "vx": 0.0,
+      "vy": 0.0,
+      "wall_end": 1790064263.147988,
+      "wall_start": 1790064260.9207234,
+      "wz": 0.0
+    },
+    {
+      "expected_file": "validation_0000.csv",
+      "gait": "trot",
+      "name": "forward_0.2",
+      "record_duration": 5.0,
+      "segment_index": 1,
+      "sequence_index": 0,
+      "sequence_name": "custom_segments",
+      "vx": 0.2,
+      "vy": 0.0,
+      "wall_end": 1790064272.8784242,
+      "wall_start": 1790064267.6201034,
+      "wz": 0.0
+    }
+  ],
+  "sequences": [
+    {
+      "expected_file": "validation_0000.csv",
+      "index": 0,
+      "name": "custom_segments",
+      "record_duration": 7.0,
+      "segments": [
+        {
+          "gait": "stance",
+          "name": "stance",
+          "record_duration": 2.0,
+          "segment_index": 0,
+          "sequence_index": 0,
+          "vx": 0.0,
+          "vy": 0.0,
+          "wall_end": 1790064263.147988,
+          "wall_start": 1790064260.9207234,
+          "wz": 0.0
+        },
+        {
+          "gait": "trot",
+          "name": "forward_0.2",
+          "record_duration": 5.0,
+          "segment_index": 1,
+          "sequence_index": 0,
+          "vx": 0.2,
+          "vy": 0.0,
+          "wall_end": 1790064272.8784242,
+          "wall_start": 1790064267.6201034,
+          "wz": 0.0
+        }
+      ],
+      "wall_end": 1790064273.6216996,
+      "wall_start": 1790064259.44149
+    }
+  ],
+  "static_gait": "stance",
+  "static_velocity_epsilon": 0.0001,
+  "total_requested_record_seconds": 7.0
+}

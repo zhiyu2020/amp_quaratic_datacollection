@@ -1,0 +1,4 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_estimation/lib/liblegged_estimation.so, /root/amp/legged_mpc_amp-master/devel/lib/liblegged_estimation.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_estimation/lib/pkgconfig/legged_estimation.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/legged_estimation.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_estimation/share/legged_estimation/cmake/legged_estimationConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/legged_estimation/cmake/legged_estimationConfig-version.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/legged_estimation/share/legged_estimation/cmake/legged_estimationConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/legged_estimation/cmake/legged_estimationConfig.cmake)

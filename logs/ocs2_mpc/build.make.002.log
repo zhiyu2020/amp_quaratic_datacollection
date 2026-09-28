@@ -1,0 +1,4 @@
+[ 11%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_mpc/lib/ocs2_mpc/ocs2_mpc_lintTarget
+[ 22%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_mpc/lib/libocs2_mpc.so
+[ 33%] Built target ocs2_mpc_lintTarget
+[100%] Built target ocs2_mpc

@@ -1,0 +1,57 @@
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp: In member function ‘ocs2::vector_t ocs2::CentroidalModelRbdConversions::computeRbdTorqueFromCentroidalModelPD(const vector_t&, const vector_t&, const vector_t&, const vector_t&, const vector_t&, const vector_t&)’:
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:192:54: warning: ‘pinocchio::FrameTpl<double, 0>::parent’ is deprecated [-Wdeprecated-declarations]
+  192 |     const auto jointIndex = model.frames[frameIndex].parent;
+      |                                                      ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/model.hpp:16,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/algorithm/centroidal.hpp:8,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:34:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/frame.hpp:231:39: note: declared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & parent;
+      |                                       ^~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:192:54: warning: ‘pinocchio::FrameTpl<double, 0>::parent’ is deprecated [-Wdeprecated-declarations]
+  192 |     const auto jointIndex = model.frames[frameIndex].parent;
+      |                                                      ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/model.hpp:16,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/algorithm/centroidal.hpp:8,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:34:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/frame.hpp:231:39: note: declared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & parent;
+      |                                       ^~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:192:54: warning: ‘pinocchio::FrameTpl<double, 0>::parent’ is deprecated [-Wdeprecated-declarations]
+  192 |     const auto jointIndex = model.frames[frameIndex].parent;
+      |                                                      ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/model.hpp:16,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/algorithm/centroidal.hpp:8,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:34:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/frame.hpp:231:39: note: declared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & parent;
+      |                                       ^~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:201:54: warning: ‘pinocchio::FrameTpl<double, 0>::parent’ is deprecated [-Wdeprecated-declarations]
+  201 |     const auto jointIndex = model.frames[frameIndex].parent;
+      |                                                      ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/model.hpp:16,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/algorithm/centroidal.hpp:8,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:34:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/frame.hpp:231:39: note: declared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & parent;
+      |                                       ^~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:201:54: warning: ‘pinocchio::FrameTpl<double, 0>::parent’ is deprecated [-Wdeprecated-declarations]
+  201 |     const auto jointIndex = model.frames[frameIndex].parent;
+      |                                                      ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/model.hpp:16,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/algorithm/centroidal.hpp:8,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:34:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/frame.hpp:231:39: note: declared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & parent;
+      |                                       ^~~~~~
+/root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:201:54: warning: ‘pinocchio::FrameTpl<double, 0>::parent’ is deprecated [-Wdeprecated-declarations]
+  201 |     const auto jointIndex = model.frames[frameIndex].parent;
+      |                                                      ^~~~~~
+In file included from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/model.hpp:16,
+                 from /opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/algorithm/centroidal.hpp:8,
+                 from /root/amp/legged_mpc_amp-master/src/third_party/ocs2/ocs2_pinocchio/ocs2_centroidal_model/src/CentroidalModelRbdConversions.cpp:34:
+/opt/ros/noetic/lib/pkgconfig/../../include/pinocchio/multibody/frame.hpp:231:39: note: declared here
+  231 |     PINOCCHIO_DEPRECATED JointIndex & parent;
+      |                                       ^~~~~~
+At global scope:
+cc1plus: warning: unrecognized command line option ‘-Wno-invalid-partial-specialization’

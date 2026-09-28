@@ -1,0 +1,13 @@
+Scanning dependencies of target ocs2_mpc
+Scanning dependencies of target ocs2_mpc_lintTarget
+[ 33%] Building CXX object CMakeFiles/ocs2_mpc.dir/src/MPC_MRT_Interface.cpp.o
+[ 33%] Building CXX object CMakeFiles/ocs2_mpc.dir/src/SystemObservation.cpp.o
+[ 33%] Building CXX object CMakeFiles/ocs2_mpc.dir/src/MRT_BASE.cpp.o
+[ 44%] Building CXX object CMakeFiles/ocs2_mpc.dir/src/LoopshapingSystemObservation.cpp.o
+[ 55%] Building CXX object CMakeFiles/ocs2_mpc.dir/src/MPC_BASE.cpp.o
+[ 66%] Building CXX object CMakeFiles/ocs2_mpc.dir/src/MPC_Settings.cpp.o
+[ 77%] Building CXX object CMakeFiles/ocs2_mpc_lintTarget.dir/src/lintTarget.cpp.o
+[ 88%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_mpc/lib/ocs2_mpc/ocs2_mpc_lintTarget
+[ 88%] Built target ocs2_mpc_lintTarget
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_mpc/lib/libocs2_mpc.so
+[100%] Built target ocs2_mpc

@@ -1,0 +1,118 @@
+Scanning dependencies of target std_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+Scanning dependencies of target visualization_msgs_generate_messages_cpp
+Scanning dependencies of target tf2_msgs_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target visualization_msgs_generate_messages_lisp
+Scanning dependencies of target visualization_msgs_generate_messages_nodejs
+Scanning dependencies of target tf2_msgs_generate_messages_cpp
+Scanning dependencies of target ocs2_msgs_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_py
+Scanning dependencies of target actionlib_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_lisp
+Scanning dependencies of target visualization_msgs_generate_messages_eus
+Scanning dependencies of target ocs2_msgs_generate_messages_eus
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target ocs2_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target ocs2_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_eus
+Scanning dependencies of target ocs2_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+Scanning dependencies of target ocs2_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_py
+Scanning dependencies of target ocs2_msgs_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_nodejs
+Scanning dependencies of target tf2_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target visualization_msgs_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target ocs2_ros_interfaces
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target ocs2_msgs_generate_messages_nodejs
+[  0%] Built target ocs2_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target ocs2_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+Scanning dependencies of target test_custom_callback_queue
+Scanning dependencies of target ocs2_ros_interfaces_lintTarget
+[  5%] Building CXX object CMakeFiles/test_custom_callback_queue.dir/test/test_custom_callback_queue.cpp.o
+[ 10%] Building CXX object CMakeFiles/ocs2_ros_interfaces_lintTarget.dir/src/lintTarget.cpp.o
+[ 25%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/command/TargetTrajectoriesKeyboardPublisher.cpp.o
+[ 25%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/common/RosMsgHelpers.cpp.o
+[ 25%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/command/TargetTrajectoriesInteractiveMarker.cpp.o
+[ 35%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mrt/MRT_ROS_Dummy_Loop.cpp.o
+[ 35%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/command/TargetTrajectoriesRosPublisher.cpp.o
+[ 40%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/synchronized_module/RosReferenceManager.cpp.o
+[ 45%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/common/RosMsgConversions.cpp.o
+[ 60%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/synchronized_module/SolverObserverRosCallbacks.cpp.o
+[ 60%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mpc/MPC_ROS_Interface.cpp.o
+[ 60%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mrt/LoopshapingDummyObserver.cpp.o
+[ 65%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/visualization/VisualizationHelpers.cpp.o
+[ 70%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/visualization/VisualizationColors.cpp.o
+[ 75%] Building CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mrt/MRT_ROS_Interface.cpp.o
+[ 80%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/lib/ocs2_ros_interfaces/test_custom_callback_queue
+[ 80%] Built target test_custom_callback_queue
+[ 85%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/lib/ocs2_ros_interfaces/ocs2_ros_interfaces_lintTarget
+[ 85%] Built target ocs2_ros_interfaces_lintTarget
+[ 90%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/lib/libocs2_ros_interfaces.so
+[ 90%] Built target ocs2_ros_interfaces
+Scanning dependencies of target multiplot_remap
+[ 95%] Building CXX object CMakeFiles/multiplot_remap.dir/src/multiplot/MultiplotRemap.cpp.o
+[100%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_ros_interfaces/lib/ocs2_ros_interfaces/multiplot_remap
+[100%] Built target multiplot_remap

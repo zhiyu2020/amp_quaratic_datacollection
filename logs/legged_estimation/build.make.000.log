@@ -1,0 +1,6 @@
+Scanning dependencies of target legged_estimation
+[ 50%] Building CXX object CMakeFiles/legged_estimation.dir/src/StateEstimateBase.cpp.o
+[ 50%] Building CXX object CMakeFiles/legged_estimation.dir/src/FromTopicEstimate.cpp.o
+[ 75%] Building CXX object CMakeFiles/legged_estimation.dir/src/LinearKalmanFilter.cpp.o
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/legged_estimation/lib/liblegged_estimation.so
+[100%] Built target legged_estimation

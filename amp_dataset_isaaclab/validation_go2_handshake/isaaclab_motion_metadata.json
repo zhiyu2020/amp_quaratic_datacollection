@@ -1,0 +1,103 @@
+{
+  "format": "legged_mpc_amp_isaaclab_npz",
+  "fps": 50.0,
+  "num_sequences": 1,
+  "total_frames": 610,
+  "flat_dim": 40,
+  "flat_layout": [
+    "root_pos",
+    "root_rot_rpy",
+    "root_lin_vel_b",
+    "root_ang_vel_b",
+    "joint_pos",
+    "joint_vel",
+    "foot_contact"
+  ],
+  "flat_slices": {
+    "root_pos": [
+      0,
+      3
+    ],
+    "root_rot_rpy": [
+      3,
+      6
+    ],
+    "root_lin_vel_b": [
+      6,
+      9
+    ],
+    "root_ang_vel_b": [
+      9,
+      12
+    ],
+    "joint_pos": [
+      12,
+      24
+    ],
+    "joint_vel": [
+      24,
+      36
+    ],
+    "foot_contact": [
+      36,
+      40
+    ]
+  },
+  "root_velocity_frame": "body",
+  "source_leg_order": [
+    "LF",
+    "LH",
+    "RF",
+    "RH"
+  ],
+  "target_leg_order": [
+    "FL",
+    "FR",
+    "RL",
+    "RR"
+  ],
+  "joint_order": [
+    "FL_HAA",
+    "FL_HFE",
+    "FL_KFE",
+    "FR_HAA",
+    "FR_HFE",
+    "FR_KFE",
+    "RL_HAA",
+    "RL_HFE",
+    "RL_KFE",
+    "RR_HAA",
+    "RR_HFE",
+    "RR_KFE"
+  ],
+  "foot_order": [
+    "FL",
+    "FR",
+    "RL",
+    "RR"
+  ],
+  "remap_to_isaaclab": true,
+  "root_rot_rpy_order": [
+    "yaw",
+    "pitch",
+    "roll"
+  ],
+  "notes": [
+    "root_lin_vel_b and root_ang_vel_b are intended to match IsaacLab asset.data.root_lin_vel_b and asset.data.root_ang_vel_b.",
+    "CSV files must contain body-frame velocity columns. Recollect old logs if they only contain legacy centroidal momentum fields.",
+    "Use the named arrays when possible. Use motions plus flat_slices only if your IsaacLab motion loader expects one flat observation vector.",
+    "The combined motions array is a concatenation of independent sequences. Do not sample frame windows across sequence_lengths boundaries.",
+    "For IsaacLab loaders that do not understand sequence_lengths, prefer the per-sequence .npy files under sequence_output_dir.",
+    "Per-sequence .npz files are optional debug outputs and are only written with --save_individual_npz."
+  ],
+  "sequence_output_dir": "sequences",
+  "sequences": [
+    {
+      "name": "validation_0000",
+      "source_file": "validation_0000.csv",
+      "num_frames": 610,
+      "motion_npy": "sequences/validation_0000.npy",
+      "motion_npz": "sequences/validation_0000.npz"
+    }
+  ]
+}

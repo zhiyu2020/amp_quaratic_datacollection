@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/liblegged_hw.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/legged_hw.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_hw/cmake/legged_hwConfig.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_hw/cmake/legged_hwConfig-version.cmake

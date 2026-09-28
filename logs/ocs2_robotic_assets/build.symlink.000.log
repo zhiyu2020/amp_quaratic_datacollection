@@ -1,0 +1,3 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_robotic_assets.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_robotic_assets/cmake/ocs2_robotic_assetsConfig.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_robotic_assets/cmake/ocs2_robotic_assetsConfig-version.cmake

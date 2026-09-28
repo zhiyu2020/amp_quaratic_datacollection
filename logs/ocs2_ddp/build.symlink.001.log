@@ -1,0 +1,5 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ddp/lib/libocs2_ddp.so, /root/amp/legged_mpc_amp-master/devel/lib/libocs2_ddp.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ddp/lib/pkgconfig/ocs2_ddp.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_ddp.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ddp/lib/ocs2_ddp/ocs2_ddp_lintTarget, /root/amp/legged_mpc_amp-master/devel/lib/ocs2_ddp/ocs2_ddp_lintTarget)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ddp/share/ocs2_ddp/cmake/ocs2_ddpConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_ddp/cmake/ocs2_ddpConfig-version.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_ddp/share/ocs2_ddp/cmake/ocs2_ddpConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_ddp/cmake/ocs2_ddpConfig.cmake)

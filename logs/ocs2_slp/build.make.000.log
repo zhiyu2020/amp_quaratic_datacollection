@@ -1,0 +1,15 @@
+Scanning dependencies of target _catkin_empty_exported_target
+Scanning dependencies of target ocs2_slp_lintTarget
+[  0%] Built target _catkin_empty_exported_target
+Scanning dependencies of target ocs2_slp
+[ 11%] Building CXX object CMakeFiles/ocs2_slp_lintTarget.dir/src/lintTarget.cpp.o
+[ 66%] Building CXX object CMakeFiles/ocs2_slp.dir/src/pipg/PipgSolver.cpp.o
+[ 66%] Building CXX object CMakeFiles/ocs2_slp.dir/src/pipg/PipgSettings.cpp.o
+[ 66%] Building CXX object CMakeFiles/ocs2_slp.dir/src/pipg/SingleThreadPipg.cpp.o
+[ 66%] Building CXX object CMakeFiles/ocs2_slp.dir/src/Helpers.cpp.o
+[ 66%] Building CXX object CMakeFiles/ocs2_slp.dir/src/SlpSettings.cpp.o
+[ 77%] Building CXX object CMakeFiles/ocs2_slp.dir/src/SlpSolver.cpp.o
+[ 88%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_slp/lib/ocs2_slp/ocs2_slp_lintTarget
+[ 88%] Built target ocs2_slp_lintTarget
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_slp/lib/libocs2_slp.so
+[100%] Built target ocs2_slp

@@ -1,0 +1,5 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_oc.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_oc.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_oc/ocs2_oc_lintTarget
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_oc/cmake/ocs2_ocConfig.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_oc/cmake/ocs2_ocConfig-version.cmake

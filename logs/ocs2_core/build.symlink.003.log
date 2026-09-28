@@ -1,0 +1,5 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_core/lib/libocs2_core.so, /root/amp/legged_mpc_amp-master/devel/lib/libocs2_core.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_core/lib/pkgconfig/ocs2_core.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_core.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_core/lib/ocs2_core/ocs2_core_lintTarget, /root/amp/legged_mpc_amp-master/devel/lib/ocs2_core/ocs2_core_lintTarget)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_core/cmake/ocs2_coreConfig-version.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_core/cmake/ocs2_coreConfig.cmake)

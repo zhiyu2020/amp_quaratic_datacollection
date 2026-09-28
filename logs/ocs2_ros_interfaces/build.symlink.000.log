@@ -1,0 +1,7 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_ros_interfaces.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_ros_interfaces.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_ros_interfaces/test_custom_callback_queue
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_ros_interfaces/ocs2_ros_interfaces_lintTarget
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/ocs2_ros_interfaces/multiplot_remap
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_ros_interfaces/cmake/ocs2_ros_interfacesConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_ros_interfaces/cmake/ocs2_ros_interfacesConfig.cmake

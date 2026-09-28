@@ -1,0 +1,9 @@
+Scanning dependencies of target _catkin_empty_exported_target
+[  0%] Built target _catkin_empty_exported_target
+Scanning dependencies of target ocs2_sphere_approximation
+[ 80%] Building CXX object CMakeFiles/ocs2_sphere_approximation.dir/src/PinocchioSphereKinematicsCppAd.cpp.o
+[ 80%] Building CXX object CMakeFiles/ocs2_sphere_approximation.dir/src/SphereApproximation.cpp.o
+[ 80%] Building CXX object CMakeFiles/ocs2_sphere_approximation.dir/src/PinocchioSphereKinematics.cpp.o
+[ 80%] Building CXX object CMakeFiles/ocs2_sphere_approximation.dir/src/PinocchioSphereInterface.cpp.o
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_sphere_approximation/lib/libocs2_sphere_approximation.so
+[100%] Built target ocs2_sphere_approximation

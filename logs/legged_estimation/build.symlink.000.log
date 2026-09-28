@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/liblegged_estimation.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/legged_estimation.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_estimation/cmake/legged_estimationConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_estimation/cmake/legged_estimationConfig.cmake

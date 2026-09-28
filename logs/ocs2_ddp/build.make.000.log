@@ -1,0 +1,20 @@
+Scanning dependencies of target ocs2_ddp_lintTarget
+Scanning dependencies of target ocs2_ddp
+[  6%] Building CXX object CMakeFiles/ocs2_ddp_lintTarget.dir/src/lintTarget.cpp.o
+[ 12%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/riccati_equations/RiccatiModification.cpp.o
+[ 18%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/riccati_equations/ContinuousTimeRiccatiEquations.cpp.o
+[ 25%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/search_strategy/LevenbergMarquardtStrategy.cpp.o
+[ 31%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/search_strategy/StrategySettings.cpp.o
+[ 37%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/riccati_equations/DiscreteTimeRiccatiEquations.cpp.o
+[ 43%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/search_strategy/LineSearchStrategy.cpp.o
+[ 50%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/ContinuousTimeLqr.cpp.o
+[ 56%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/GaussNewtonDDP.cpp.o
+[ 62%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/HessianCorrection.cpp.o
+[ 68%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/ILQR.cpp.o
+[ 75%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/SLQ.cpp.o
+[ 81%] Linking CXX executable /root/amp/legged_mpc_amp-master/devel/.private/ocs2_ddp/lib/ocs2_ddp/ocs2_ddp_lintTarget
+[ 87%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/DDP_Settings.cpp.o
+[ 87%] Built target ocs2_ddp_lintTarget
+[ 93%] Building CXX object CMakeFiles/ocs2_ddp.dir/src/DDP_HelperFunctions.cpp.o
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_ddp/lib/libocs2_ddp.so
+[100%] Built target ocs2_ddp

@@ -1,0 +1,4 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_centroidal_model/lib/libocs2_centroidal_model.so, /root/amp/legged_mpc_amp-master/devel/lib/libocs2_centroidal_model.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_centroidal_model/lib/pkgconfig/ocs2_centroidal_model.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_centroidal_model.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig-version.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig.cmake)

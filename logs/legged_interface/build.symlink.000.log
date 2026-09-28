@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/liblegged_interface.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/legged_interface.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_interface/cmake/legged_interfaceConfig.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_interface/cmake/legged_interfaceConfig-version.cmake

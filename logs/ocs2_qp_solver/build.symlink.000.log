@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_qp_solver.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_qp_solver.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_qp_solver/cmake/ocs2_qp_solverConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_qp_solver/cmake/ocs2_qp_solverConfig.cmake

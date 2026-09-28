@@ -1,0 +1,7 @@
+Scanning dependencies of target ocs2_qp_solver
+[ 80%] Building CXX object CMakeFiles/ocs2_qp_solver.dir/src/QpDiscreteTranscription.cpp.o
+[ 80%] Building CXX object CMakeFiles/ocs2_qp_solver.dir/src/QpTrajectories.cpp.o
+[ 80%] Building CXX object CMakeFiles/ocs2_qp_solver.dir/src/QpSolver.cpp.o
+[ 80%] Building CXX object CMakeFiles/ocs2_qp_solver.dir/src/Ocs2QpSolver.cpp.o
+[100%] Linking CXX shared library /root/amp/legged_mpc_amp-master/devel/.private/ocs2_qp_solver/lib/libocs2_qp_solver.so
+[100%] Built target ocs2_qp_solver

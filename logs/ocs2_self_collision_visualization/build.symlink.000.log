@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/libocs2_self_collision_visualization.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_self_collision_visualization.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_self_collision_visualization/cmake/ocs2_self_collision_visualizationConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/ocs2_self_collision_visualization/cmake/ocs2_self_collision_visualizationConfig.cmake

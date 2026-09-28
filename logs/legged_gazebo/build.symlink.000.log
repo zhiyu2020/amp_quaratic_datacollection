@@ -1,0 +1,4 @@
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/liblegged_hw_sim.so
+Symlinking /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/legged_gazebo.pc
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_gazebo/cmake/legged_gazeboConfig-version.cmake
+Symlinking /root/amp/legged_mpc_amp-master/devel/share/legged_gazebo/cmake/legged_gazeboConfig.cmake

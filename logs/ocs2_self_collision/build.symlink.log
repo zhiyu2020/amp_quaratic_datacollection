@@ -1,0 +1,4 @@
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_self_collision/lib/libocs2_self_collision.so, /root/amp/legged_mpc_amp-master/devel/lib/libocs2_self_collision.so)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_self_collision/lib/pkgconfig/ocs2_self_collision.pc, /root/amp/legged_mpc_amp-master/devel/lib/pkgconfig/ocs2_self_collision.pc)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_self_collision/share/ocs2_self_collision/cmake/ocs2_self_collisionConfig.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_self_collision/cmake/ocs2_self_collisionConfig.cmake)
+Linked: (/root/amp/legged_mpc_amp-master/devel/.private/ocs2_self_collision/share/ocs2_self_collision/cmake/ocs2_self_collisionConfig-version.cmake, /root/amp/legged_mpc_amp-master/devel/share/ocs2_self_collision/cmake/ocs2_self_collisionConfig-version.cmake)
